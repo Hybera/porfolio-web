@@ -27,43 +27,58 @@
 	<!-- this is the main section-->
     <main>
         <h1>HTML Table</h1>
-	<p>I made this table with HTML and CSS for my college courses this semester. </p>
-	<table>
-  <thead>
-    <tr>
-      <th>Course Code</th>
-      <th>Course Title</th>
-      <th>Instructor</th>
-      <th>Credits</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CSCI 1410-91</td>
-      <td>Introduction to Computer Science</td>
-      <td>Mary Anderson</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>CSCI 1450-91</td>
-      <td>Web Fundamental</td>
-      <td>Susan Metoxen J</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>ENGL 1711-81</td>
-      <td>Composition 1</td>
-      <td>Justin Bonnett</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>NSCI 1750-92</td>
-      <td>Natural Disasters</td>
-      <td>Angela R, Donatelle</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
+	     <p>I made this table with HTML and CSS for my college courses this semester. </p>
+	     <table>
+        <thead>
+          <tr>
+            <th>Course Code</th>
+              <th>Course Title</th>
+                <th>Instructor</th>
+                  <th>Credits</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CSCI 1410-91</td>
+              <td>Introduction to Computer Science</td>
+                <td>Mary Anderson</td>
+                  <td>4</td>
+          </tr>
+          <tr>
+            <td>CSCI 1450-91</td>
+              <td>Web Fundamental</td>
+                <td>Susan Metoxen J</td>
+                  <td>4</td>
+          </tr>
+          <tr>
+            <td>ENGL 1711-81</td>
+              <td>Composition 1</td>
+                <td>Justin Bonnett</td>
+                  <td>3</td>
+          </tr>
+          <tr>
+            <td>NSCI 1750-92</td>
+              <td>Natural Disasters</td>
+                <td>Angela R, Donatelle</td>
+                  <td>3</td>
+            </tr>
+        </tbody>
+        </table>
+          <h2>HTML Form</h2>
+          <p>This is a form I made in HTML and styled with CSS. The form doesn't contact me, but it does process with a PHP script. If you fill out and submit the form, the form checks for completeness and prints your form entries to the screen. 
+          </p>
+        <form action="https://webdevstudents.com/portfolio/submit-form.php" method="post">
+            <label for="first_name">First Name</label><br>
+            <input type="text" name="first_name" id="first_name"><br>
+            <label for="last_name">Last Name</label><br>
+            <input type="text" name="last_name" id="last_name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="phone">Cell</label><br>
+            <input type="tel" name="phone" id="phone"><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
     </main>
 		<footer>
   <div class="container-fluid">
